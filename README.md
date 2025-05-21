@@ -3,7 +3,9 @@
 
 
 La entidad Escritor tiene atributos: id, nombre, apellido, nacionalidad y edad.
+
 La entidad Libro tiene atributos: id, nombre, genero, añoPublicacion y authorId que es la llave foránea que referencia a un Escritor.
+
 La relación es de uno a muchos (1:N):
 - Un escritor puede escribir muchos libros.
 - Cada libro está asociado a un solo escritor.
