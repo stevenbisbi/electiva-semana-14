@@ -10,6 +10,8 @@ La relación es de uno a muchos (1:N):
 - Un escritor puede escribir muchos libros.
 - Cada libro está asociado a un solo escritor.
 
+Llave foránea (authorId):
+En la tabla Libro, se incluye authorId para vincular cada libro con su escritor, manteniendo la integridad referencial.
 
 Integrantes :
 Leidy Duarte 
