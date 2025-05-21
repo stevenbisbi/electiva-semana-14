@@ -7,8 +7,4 @@ export const AppDataSource = new DataSource({
   synchronize: false, // Desactiva la sincronización
   logging: false,
   entities: [Writer, Book],
-   extra: {
-    // Esto activa el modo solo lectura en SQLite
-    readonly: true
-  }
 });
